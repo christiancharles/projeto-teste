@@ -20,4 +20,4 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html  # Ou a pasta raiz do seu projeto no servidor
+          server-dir: /  # Ou a pasta raiz do seu projeto no servidor
